@@ -20,6 +20,9 @@ header {
 }
 header ul {
   display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 header ul a {
   color: #fff;
@@ -29,15 +32,17 @@ header li {
 }
 header li a {
   text-decoration: none;
+  padding: 10px;
 }
-.left {
-  margin-right: auto;
+.left-menu {
+  display: flex;
+  margin: 15px;
 }
-.right {
-  margin-left: auto;
+.right-menu {
+  display: flex;
+  margin: 15px;
 }
 header ul:after {
-  content: "";
   display: block;
   clear: both;
 }
